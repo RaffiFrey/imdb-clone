@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Header/>
           <Navbar />
-          <Suspense fallback={'/error'}>
+          <Suspense fallback={'/'}>
             <SearchBox/>
           </Suspense>
           {children}
